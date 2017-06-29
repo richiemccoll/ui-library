@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox Component should render a checkbox that is disabled 1`] = `
+<div
+  className="sc-bdVaJa fkJLfL"
+>
+  <input
+    checked={false}
+    className="sc-htpNat dOJGmE"
+    disabled="true"
+    id="test"
+    name="test"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="sc-bwzfXH gBgBSn"
+    disabled="true"
+    htmlFor="test"
+  >
+    test
+  </label>
+</div>
+`;
+
+exports[`Checkbox Component should render a checkbox that is not disabled 1`] = `
+<div
+  className="sc-bdVaJa fkJLfL"
+>
+  <input
+    checked={false}
+    className="sc-htpNat dOJGmE"
+    disabled={false}
+    id="test"
+    name="test"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="sc-bwzfXH ctswpo"
+    disabled={false}
+    htmlFor="test"
+  >
+    test
+  </label>
+</div>
+`;
+
+exports[`Checkbox Component should update the checked property on click 1`] = `
+<div
+  className="sc-bdVaJa fkJLfL"
+>
+  <input
+    checked={false}
+    className="sc-htpNat dgdDeR"
+    disabled={false}
+    id="test"
+    name="Radio"
+    onChange={[Function]}
+    type="radio"
+  />
+  <label
+    className="sc-bwzfXH ctswpo"
+    disabled={false}
+    htmlFor="test"
+  >
+    test
+  </label>
+</div>
+`;
+
+exports[`Checkbox Component should update the checked property on click 2`] = `
+<div
+  className="sc-bdVaJa fkJLfL"
+>
+  <input
+    checked={true}
+    className="sc-htpNat dgdDeR"
+    disabled={false}
+    id="test"
+    name="Radio"
+    onChange={[Function]}
+    type="radio"
+  />
+  <label
+    className="sc-bwzfXH ctswpo"
+    disabled={false}
+    htmlFor="test"
+  >
+    test
+  </label>
+</div>
+`;

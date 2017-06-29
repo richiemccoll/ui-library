@@ -1,0 +1,25 @@
+{
+  "name": "component-library",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/react-test-renderer": "^15.5.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.48.0",
+    "flow-typed": "^2.1.2",
+    "prop-types": "^15.5.10",
+    "react-scripts": "1.0.7",
+    "react-test-renderer": "^15.6.1",
+    "styled-components": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  }
+}

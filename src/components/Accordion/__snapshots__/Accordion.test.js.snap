@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component should render correctly 1`] = `
+<ul
+  className="sc-bdVaJa hwTUhO"
+>
+  <li
+    onClick={[Function]}
+  >
+    test
+    <span
+      className="sc-bwzfXH jvACAx"
+    >
+      <svg
+        fill="none"
+        height="16"
+        id="i-chevron-bottom"
+        stroke="currentcolor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        viewBox="0 0 32 32"
+        width="16"
+      >
+        <path
+          d="M30 12 L16 24 2 12"
+        />
+      </svg>
+    </span>
+  </li>
+</ul>
+`;
