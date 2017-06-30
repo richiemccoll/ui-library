@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Component should render correctly 1`] = `
+<nav
+  aria-label="site-navigation"
+  className="sc-bdVaJa hyZMgA"
+  color="#2196F3"
+>
+  <button
+    aria-expanded={false}
+    className="sc-bwzfXH iXNRId"
+    color="#2196F3"
+    onClick={[Function]}
+  >
+    <span>
+      <svg
+        fill="currentcolor"
+        height="32"
+        id="i-menu"
+        stroke="currentcolor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+        viewBox="0 0 32 32"
+        width="32"
+      >
+        <path
+          d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24"
+        />
+      </svg>
+    </span>
+  </button>
+  <ul
+    hidden={true}
+  />
+</nav>
+`;

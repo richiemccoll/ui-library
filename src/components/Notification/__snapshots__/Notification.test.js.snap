@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification Component should render correctly 1`] = `
+<div
+  className="sc-bwzfXH jNMMzs"
+  role="alert"
+  type="#c5c5c5"
+>
+  This is a normal message variant
+  <span
+    className="sc-bdVaJa fNAerP"
+    onClick={undefined}
+  >
+    <svg
+      fill="none"
+      height="16"
+      id="i-close"
+      stroke="currentcolor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      viewBox="0 0 32 32"
+      width="16"
+    >
+      <path
+        d="M2 30 L30 2 M30 30 L2 2"
+      />
+    </svg>
+  </span>
+</div>
+`;

@@ -2,6 +2,8 @@ import React, { Component } from "react";
 // import Checkbox from "./components/Checkbox/Checkbox";
 import Accordion from "./components/Accordion/Accordion";
 import Card from "./components/Card/Card";
+import Notification from "./components/Notification/Notification";
+import Nav from './components/Nav/Nav';
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -15,25 +17,7 @@ class App extends Component {
     return (
       <Container>
         <h1>UI Library</h1>
-        {/*<article>
-          <h2>Checkbox</h2>
-          <h3>Basic</h3>
-          <Checkbox name="Basic Example" type="checkbox" />
-
-          <h4>A checkbox can be read-only and unable to change states. </h4>
-          <Checkbox name="Disabled Example" type="checkbox" disabled="true" />
-        </article>*/}
-
-        {/*<article>
-          <h2>Radio</h2>
-          <h3>Basic</h3>
-          <h4>A checkbox can be formatted as a radio element. This means it is an exclusive option.</h4>
-          <Checkbox name="Yes" type="radio" />
-          <Checkbox name="No" type="radio" />
-
-          <h4>A radio checkbox can also be read-only and unable to change states. </h4>
-          <Checkbox name="Disabled Radio Example" type="radio" disabled="true" />
-        </article>*/}
+        <Nav title="Navbar" color="#2196F3" menuItems={['Home', 'About']} />
 
         <article>
           <h2>Accordion</h2>
@@ -44,6 +28,22 @@ class App extends Component {
               description="testing the card"
             />
           </Accordion>
+        </article>
+
+        <article>
+          <h2>Notfication</h2>
+          <h3>Normal Message Variant</h3>
+          <Notification type="message" message="This is a normal message variant" />
+
+          <h3>Warning Variant</h3>
+          <Notification type="warning" message="This is a warning" />
+
+          <h3>Error Variant</h3>
+          <Notification type="error" message="This is an error!" />
+
+          <h3>Success Variant</h3>
+          <Notification type="success" message="This is a success" /> 
+          
         </article>
       </Container>
     );
