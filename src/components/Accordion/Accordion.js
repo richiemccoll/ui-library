@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import PaperRipple from 'react-paper-ripple';
 import { Icons } from './Icons';
 import { Container } from './UIElements';
 
@@ -22,8 +23,9 @@ class Accordion extends React.Component {
     const { title, children } = this.props;
 
     return (
-      <Container>
-        <li onClick={this.toggle.bind(this)}>
+      <Container onClick={this.toggle.bind(this)}>
+        <PaperRipple color="#f2f2f2" center />
+        <li>
           {title}
           <Icons isOpen={isOpen} />
         </li>
