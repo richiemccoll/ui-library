@@ -3,10 +3,25 @@
 exports[`Accordion Component should render correctly 1`] = `
 <ul
   className="sc-bdVaJa hwTUhO"
+  onClick={[Function]}
 >
-  <li
-    onClick={[Function]}
-  >
+  <div
+    className="paper-ripple"
+    onMouseDown={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "opacity": 0.25,
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+  <li>
     test
     <span
       className="sc-bwzfXH jvACAx"
