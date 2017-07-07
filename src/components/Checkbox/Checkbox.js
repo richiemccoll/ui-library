@@ -38,7 +38,7 @@ class Checkbox extends Component {
 
 export default Checkbox;
 
-Checkbox.PropTypes = {
+Checkbox.propTypes = {
   name: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   disabled: PropTypes.bool
@@ -59,3 +59,12 @@ const Item = ({ inputName, name, type, disabled, checked, handleChange }) => {
     </Container>
   );
 };
+
+Item.propTypes = {
+  inputName: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  disabled: PropTypes.bool.isRequired,
+  checked: PropTypes.bool.isRequired,
+  handleChange: PropTypes.func.isRequired
+}

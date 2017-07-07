@@ -8,7 +8,7 @@ const Button = ({ color, isExpanded, showMenu }) =>
     <Icon isExpanded={isExpanded} />
   </NavButton>;
 
-Button.PropTypes = {
+Button.propTypes = {
   color: PropTypes.string,
   isExpanded: PropTypes.bool.isRequired,
   showMenu: PropTypes.func.isRequired
@@ -30,7 +30,7 @@ const NavLinks = ({ links }) => {
   );
 };
 
-NavLinks.PropTypes = {
+NavLinks.propTypes = {
     links: PropTypes.arrayOf(PropTypes.string)
 }
 
@@ -65,7 +65,7 @@ class Nav extends React.Component {
 
 export default Nav;
 
-Nav.PropTypes = {
+Nav.propTypes = {
     title: PropTypes.string,
     color: PropTypes.string.isRequired,
     menuItems: PropTypes.arrayOf(PropTypes.string)

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { IconContainer } from './UIElements';
 
 const CloseIcon = ({ handleClose }) => {
@@ -22,3 +23,7 @@ const CloseIcon = ({ handleClose }) => {
 };
 
 export default CloseIcon;
+
+CloseIcon.propTypes = {
+  handleClose: PropTypes.func.isRequired
+}

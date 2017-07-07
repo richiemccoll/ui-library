@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const Icon = ({ isExpanded }) => {
   return (
@@ -35,3 +36,7 @@ export const Icon = ({ isExpanded }) => {
     </span>
   );
 };
+
+Icon.propTypes = {
+  isExpanded: PropTypes.bool.isRequired
+}
